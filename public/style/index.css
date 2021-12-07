@@ -1,0 +1,23 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  color: #343434;
+  background-color: #e9ebee;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=index.css.map */
