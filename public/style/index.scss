@@ -1,3 +1,51 @@
 @import "variables";
 @import "mixins";
 @import "reboot";
+
+// control layout
+
+%center-postion {
+    width: 80%;
+    margin: 0 auto;
+}
+
+%flex-items-center {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    @extend %center-postion;
+    @extend %flex-items-center;
+}
+
+.header-left {
+    flex: 1;
+    @extend %flex-items-center;
+}
+
+main {
+    @extend %center-postion;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-border {
+    border: 1px solid red;
+    background-color: $white;
+    flex-basis: 48%;
+    @extend %flex-items-center;
+    flex-direction: column;
+    height: 400px;
+}
+
+.content-item {
+    border: 1px solid black;
+    width: 90%;
+    height: 90%;
+    @extend %flex-items-center;
+    flex-direction: column;
+}

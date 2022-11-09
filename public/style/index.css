@@ -20,4 +20,38 @@ ol {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+main, .header {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.content-item, .content-border, .header-left, .header {
+  display: flex;
+  align-items: center;
+}
+
+.header-left {
+  flex: 1;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-border {
+  border: 1px solid red;
+  background-color: #fff;
+  flex-basis: 48%;
+  flex-direction: column;
+  height: 400px;
+}
+
+.content-item {
+  border: 1px solid black;
+  width: 90%;
+  height: 90%;
+  flex-direction: column;
 }/*# sourceMappingURL=index.css.map */
