@@ -49,3 +49,37 @@ main {
     @extend %flex-items-center;
     flex-direction: column;
 }
+
+// control sytle
+
+%font-family {
+    font-family: Arial, Helvetica, "微软雅黑";
+}
+
+body {
+    @extend %font-family;
+}
+
+header {
+    background-color: $primary-color;
+}
+
+.logo {
+    color: $white;
+}
+
+.register-button {
+    color: $white;
+    background-color: $secondary-color;
+    margin: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    @extend %font-family;
+}
+
+.join-facebook {
+    color: $white;
+    text-decoration: none;
+}
+

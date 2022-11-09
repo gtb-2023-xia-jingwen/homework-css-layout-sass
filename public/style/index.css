@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body,
 html {
   margin: 0;
@@ -54,4 +55,30 @@ main, .header {
   width: 90%;
   height: 90%;
   flex-direction: column;
+}
+
+.register-button, body {
+  font-family: Arial, Helvetica, "微软雅黑";
+}
+
+header {
+  background-color: #3b5998;
+}
+
+.logo {
+  color: #fff;
+}
+
+.register-button {
+  color: #fff;
+  background-color: #42b72a;
+  margin: 10px;
+  border: none;
+  border-radius: 3px;
+  font-size: 18px;
+}
+
+.join-facebook {
+  color: #fff;
+  text-decoration: none;
 }/*# sourceMappingURL=index.css.map */
